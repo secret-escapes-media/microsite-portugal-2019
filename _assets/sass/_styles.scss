@@ -23,20 +23,24 @@
      @include bp($xl) {
        content: url(../img/icons/divider-w.svg);
        display: block;
-       margin-top: 2px;
-       transform: scale(.3);
+       margin-top: -15px;
+       transform: scale(.5);
 
      }
    }
 
+.bv-dividerline{
+  border-bottom: 1px solid rgba($grey-dark, .2);
+}
 
-  .bv-headline-divider::after {
-    content: ('–––');
+
+.bv-headline-divider::after {
+    content: ('...');
     display: block;
-    color: $i-blue;
-    font-size: $s5;
-    letter-spacing: -4px;
-    margin: -3px 0 -2px 2px;
+    color: $bv-blue;
+    font-size: $s6;
+    letter-spacing: -2px;
+    margin: -35px 0 -2px 0px;
   }
 
    .bv-lineheight{
@@ -142,7 +146,7 @@
 
   &--blue{
     background-image: none!important;
-    background-color: $i-blue;}
+    background-color: $bv-blue;}
 }
 
 .bv-parallax{

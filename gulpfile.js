@@ -39,7 +39,7 @@ gulp.task('serve', ['build-jekyll'], function() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/de/italien': '_site/'
+        '/de/portugal-2019': '_site/'
       }
     }
   });

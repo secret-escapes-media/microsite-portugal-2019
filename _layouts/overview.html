@@ -3,12 +3,10 @@ layout: default
 ---
 
 
-<div class=" vpad--xxl {{page.colour}} bv-parallax bv-drawing bv-remove-bg" style="background-image: url('{{site.img}}/icons/{{page.drawing}}.png');">
+<div class=" vpad--xxl {{page.colour}} " >
   <div class="container">
-    <div class="width width--xl text--serif text--left text--normal text--xxl text--white " >
-      <div class=" text--serif-lg bv-lineheight">{{page.intro-title}}</div>
-      <div class="space--sm"></div>
-       <div class="text--serif-italic">{{page.intro}}</div>
+    <div class="width width--xl  text--left  " >
+       <div class="text text--lg  text--justify">{{page.intro}}</div>
     </div>
   </div>
 </div>
@@ -25,10 +23,11 @@ layout: default
       <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{destination.id}}.jpg');" ></a>
     </div>
     <div class="bob__text">
-      <h3 class="title title--lg bv-headline-divider ">{{destination.title}}</h3>
-      <p class="text text--xxl">{{destination.summary}}</p>
-      <div class="space--lg"></div>
-      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--i-blue" >{{destination.cta}}</a>
+      <h3 class="text text--serif text--xxxxl text--bv-blue bv-headline-divider text--upper">{{destination.title}}</h3>
+
+      <p class="text text--lg text--justify ">{{destination.summary}}</p>
+      <div class="space--lg "></div>
+      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--bv-red" >Mehr erfahren</a>
     </div>
   </div>
 

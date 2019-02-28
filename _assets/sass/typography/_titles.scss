@@ -38,7 +38,7 @@
   font-weight: 700; text-transform: uppercase;}
   &--sm     { font-size: $s2; }
   @include bp($md){
-    font-size: $s3; // default size
+    font-size: $s4; // default size
     &--lg     { font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
     //text-transform: uppercase;
     font-weight: 600; }
@@ -83,13 +83,20 @@
 
   // custom banner headline
   font-family: $font-serif;
-  font-weight: 300;
+  //font-weight: 400;
   letter-spacing: -.02em;
   font-size: $s8;
   line-height: .95em;
-  font-style: italic;
+  text-transform: uppercase;
+
+  &--md   { font-size: $s8; line-height: 1.1; }
+
   @include bp($md){ font-size: $s12;  }
-  @include bp($xl){ font-size: $s11; letter-spacing: 2px; line-height: 1em;
+
+  @include bp($xl){ font-size: $s12; letter-spacing: 4px; line-height: 1em;
+
+  &--md   { font-size: $s9; letter-spacing: 4px; line-height: 1em; }
+  &--lg   { font-size: $s11; letter-spacing: 4px; line-height: 1em; }
   }
 
 }
@@ -100,10 +107,10 @@
   font-family: $font-serif;
   font-weight: 300;
   letter-spacing: -.02em;
-  color: $i-blue;
+  color: $bv-blue;
   font-size: $s6;
   @include bp($md){ font-size: $s8; }
-  @include bp($xl){ font-size: $s7; letter-spacing: 1px; line-height: 1em;
+  @include bp($xl){ font-size: $s8; letter-spacing: 1px; line-height: 1em;
   }
 
 }

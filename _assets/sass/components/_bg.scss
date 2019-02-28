@@ -3,11 +3,12 @@
 .bg {
   &--white { background-color: $white; }
   &--light { background-color: $grey-lightest; }
-  &--i-blue { background-color: $i-blue; }
-  &--i-yellow { background-color: $i-yellow; }
-  &--i-red { background-color: $i-red; }
-  &--i-green { background-color: $i-green; }
-  &--i-black { background-color: $i-black; }
+  &--bv-blue { background-color: $bv-blue; }
+  &--bv-beige { background-color: $bv-beige; }
+  &--bv-yellow { background-color: $bv-yellow; }
+  &--bv-red { background-color: $bv-red; }
+  &--bv-green { background-color: $bv-green; }
+  &--bv-black { background-color: $black; }
   &--dark  { background-color: $grey-dark; }
   &--img   { @include background-attributes; }
   &__fixed {

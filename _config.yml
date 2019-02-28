@@ -1,18 +1,18 @@
 # Site settings
-title: Italien
+title: Portugal
 client:
-  name: Unentdeckte Schätze
-  link: "http://www.italia.it"
+  name: Ein Ort, der Sehnsucht weckt
+  link: "https://www.visitportugal.com/de"
 core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=italy_DE_2018
 description: >
   Begeben Sie sich auf die Spuren der Etrusker, finden Sie einzigartige Relikte vergangener Zeiten wie die apulischen Trulli, erleben Sie das authentische Flair italienischer Dörfer in kleinen Borghi oder spüren Sie beim Genuss der Cucina italiana das mediterrane Lebensgefühl
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/italien" # the subpath of your site, e.g. /blog/
-img:     "/de/italien/_assets/img"
-css:     "/de/italien/_assets/css"
-js:      "/de/italien/_assets/js"
+baseurl: "/de/portugal-2019" # the subpath of your site, e.g. /blog/
+img:     "/de/portugal-2019/_assets/img"
+css:     "/de/portugal-2019/_assets/css"
+js:      "/de/portugal-2019/_assets/js"
 
 
 # Build settings
