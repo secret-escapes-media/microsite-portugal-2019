@@ -30,6 +30,7 @@
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $grey-dark; }
+  &--bv-red { color: $bv-red; }
   &--bv-blue { color: $bv-blue; }
   &--bv-beige { color: $bv-beige; }
 
@@ -38,9 +39,10 @@
   &--left   { text-align: left; }
   &--right  { text-align: right; }
   &--center { text-align: center; }
-  &--justify{ text-align: justify; }
+  &--justify{ text-align: left; }
   @include bp($lg) {
     &--bp-left   { text-align: left; }
+    &--justify{ text-align: justify; }
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
   }

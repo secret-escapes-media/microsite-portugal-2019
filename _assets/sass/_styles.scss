@@ -6,17 +6,25 @@
    ========================================================================== */
 
    .bv-title-divider::after{
-     content: url(../img/icons/flower.svg);
+     content: url(../img/icons/divider-w.svg);
      display: block;
-     margin-top: 3px;
+     margin-top: 18px;
      margin-bottom: -2px;
-     transform: scale(.65);
+     transform: scale(.8);
+
+     @include bp($sm) {
+       content: url(../img/icons/divider-w.svg);
+       display: block;
+       margin-top: 10px;
+       transform: scale(.8);
+
+     }
 
      @include bp($md) {
        content: url(../img/icons/divider-w.svg);
        display: block;
-       margin-top: 10px;
-       transform: scale(.5);
+       margin-top: 18px;
+       transform: scale(.8);
 
      }
 
@@ -24,7 +32,7 @@
        content: url(../img/icons/divider-w.svg);
        display: block;
        margin-top: -15px;
-       transform: scale(.5);
+       transform: scale(.45);
 
      }
    }
@@ -35,11 +43,11 @@
 
 
 .bv-headline-divider::after {
-    content: ('...');
+    content: ('....');
     display: block;
     color: $bv-blue;
-    font-size: $s6;
-    letter-spacing: -2px;
+    font-size: $s7;
+    letter-spacing: -5px;
     margin: -35px 0 -2px 0px;
   }
 
@@ -70,8 +78,45 @@
       }
     }
 
+
 /* ==========================================================================
-   Parallax & DRAWINGS
+   Initial Letter
+========================================================================== */
+
+$font-size: 1.15rem;
+$cap-size: $font-size * 5.4;
+
+
+
+// Wrap in @supports with `not` operator
+@supports (not(initial-letter: 5)) and (not(-webkit-initial-letter: 5)) {
+    .bv-subhead::first-letter {
+        //color:  $bv-blue;
+        font-size: $cap-size;
+        float: left;
+        line-height: .7;
+        margin: 9px 15px 5px -3px;
+    }
+}
+
+// Progressive enhancements for supported browsers
+@supports (initial-letter: 5) or (-webkit-initial-letter: 5) {
+    .bv-subhead:nth-of-type(1)::first-letter {
+        -webkit-initial-letter: 3;
+        initial-letter: 3;
+
+    }
+}
+
+.bv-subhead::first-letter {
+    //color: $bv-blue;
+    font-family: $font-serif;
+}
+
+
+
+/* ==========================================================================
+   Parallax
    ========================================================================== */
 
 .bv-parallax{
@@ -80,61 +125,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-    &--left   {
-      background-attachment: fixed;
-      background-position: 32% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;}
-
-
-    &--right   {
-      background-attachment: fixed;
-      background-position: 60% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;}
-
-    &--darkest   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.9);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--darker   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.8);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--dark   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.7);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--lighter   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.7);
-      background-blend-mode: lighten;
-      background-position: center;
-      background-size: cover;
-      }
-
-    &--light   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.5);
-      background-blend-mode: color;
-      background-position: center;
-      background-size: cover; }
-
-    &--white   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.8);
-      background-blend-mode: overlay;
-      background-position: center;
-      background-size: cover; }
 
 }
 
@@ -153,44 +143,9 @@
       background-attachment: scroll;
       background-size: cover;
 
-    &--darkest   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--darker   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--dark   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--lighter   {
-      background-attachment: scroll;
-      background-size: cover;
-      background-color: none;
-    }
-    &--light   {
-      background-attachment: scroll;
-      background-size: cover;
-      background-color: none;
-    }
-    &--white   {
-     background-attachment: scroll;
-     background-size: cover;
-     background-color: none;
-    }
   }
 }
 
-
-.bv-drawing{
-
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  background-size: cover;
-
-}
 
 
 
@@ -198,27 +153,41 @@
  Collapsible
 ========================================================================== */
 
-
-.bv-collapsible {
-
-  cursor: pointer;
+.bv-mob-show{
+  display: inline;
+  @include bp($xxl) { display: none; }
+}
+.bv-mob-hide{
+  display: none;
+  @include bp($xxl) { display: block; }
 
 }
 
-.bv-collapsible:after {
-  content: ' ansehen ';
+@media only screen and (max-width: 970px) {
+
+  .bv-collapsible {
+    cursor: pointer;
+
+  }
+
+  .bv-collapsible:after {
+    content: ' ansehen ';
+  }
+
+  .bv-active:after {
+    content: ' schliessen ';
+  }
+
+
+  .bv-content {
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: $s4;
+    transition: all 0.5s ease-out;
+  }
+
 }
 
-.bv-active:after {
-  content: ' schliessen ';
-}
-
-.bv-content {
-
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.5s ease-out;
-}
 
 
 /* ==========================================================================
@@ -226,18 +195,50 @@ Insidertipps
 ========================================================================== */
 
 .bv-img-insider{
-  width: 75%;
+  width: 60%;
   max-width: $lg;
+  padding-left: $s3;
 
   @include bp($xl) {
     width: 25%;
     max-width: none;
+    padding-left: $s3;
   }
 }
 
 .bv-img-circle {
   border-radius: 500px;
-  border: 4px $white solid;
+  //border: 4px $white solid;
+}
+
+.bv-linehight{
+  line-height: 1.8rem;
+}
+.bv-border{
+  border-bottom: 5px solid #f0ff0f;
+  &:last-child { border-bottom: 0px; }
+}
+
+
+$circle-height: 3.4rem;
+
+.bv-btn-up{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: $circle-height;
+  height: $circle-height;
+  min-width: $circle-height;
+  min-height: $circle-height;
+  //background-color: $bv-blue;
+  border-radius: $circle-height;
+  background-repeat: no-repeat;
+  border: 2px solid $bv-blue;
+  background-image: url('../img/icons/arrow-left.svg');
+  background-size: auto ($circle-height/2);
+  background-position: 48% center;
+  transform: rotate(90deg);
 }
 
 /* ==========================================================================

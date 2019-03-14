@@ -1,39 +1,119 @@
-- title: "Here goes title"
-  id: sarasota
-  location: Here goes location
-  description: Here goes description
-  price: 85
-  price-description: pro Unterkunft pro Nacht
-  saved: 62
-  image: img.jpg
-  link: #
+- title: "Insel-Duo: Madeira & Porto Santo"
+  id: entschleunigung-in-südtirol
+  location: Madeira & Porto Santo, Portugal
+  description: Exklusive Vielfalt im Atlantik inkl. Flügen, Halbpension, optionalen Ausflügen &amp; Extras
+  price: 999
+  price-description: pro Person für 14 Nächte
+  saved: 20
+  flight-tag: true
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90163/a9ed3c99_ed02_4d11_bcbe_0a1f737e5f2c.jpg
+  link: https://www.secretescapes.de/insel-duo-madeira-and-porto-santo-funchal-and-porto-santo-madeira-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
 
-- title: "Here goes title"
-  id: naples
-  location: Here goes location
-  description: Inkl. Frühstück oder Halbpension &amp; Begrüßungsgetränk
-  price: 105
+- title: Lissabon für Stadtentdecker
+  id: vitale-erholung-am-gardasee
+  location: Corinthia Hotel Lisbon, Lissabon, Portugal
+  description: Inkl. Frühstück, Zugang zum Pool &amp; Fitnessbereich, Spa-Gutschein &amp; Extras
+  price: 142
   price-description: pro Zimmer pro Nacht
-  saved: 71
-  image: img.jpg
-  link: #
+  saved: 42
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/43524/b78eab65_c135_418a_8d79_e4bcb037bead.jpg
+  link: https://www.secretescapes.de/lissabon-fuer-stadtentdecker-corinthia-hotel-lisbon-lissabon-portugal1/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
 
-- title: "Here goes title"
-  id: florida-keys
-  location: Here goes location
-  description: Here goes description
-  price: 229
+- title: "Mitten in Porto: Design-Apartments zum Wohlfühlen"
+  id: wein-and-design-in-südtirol
+  location: My Story Apartments Santa Catarina, Porto, Portugal
+  description: Neueröffnung in historischer Kulisse – inkl. 1 Flasche Wein, spätem Check-out &amp; WLAN
+  price: 78
+  price-description: pro Apartment pro Nacht
+  saved: 38
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90339/c414f663_76f7_4929_a6af_0c6dceb862ff.jpg
+  link: https://www.secretescapes.de/apartments-im-gemuetlichen-herzen-von-porto-my-story-apartments-santa-catarina-porto-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: Traumresort an Portugals Atlantikküste
+  id: moderne-neueröffnung-am-südufer-des-gardasees
+  location: Sheraton Cascais Resort, Cascais bei Lissabon, Portugal
+  description: 5*-Deluxe-Suite zwischen Golfplatz &amp; Ozean – inkl. Frühstück, Spa-Zugang &amp; Extras
+  price: 119
   price-description: pro Suite pro Nacht
-  saved: 46
-  image: img.jpg
-  link: #
+  saved: 34
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/54522/da916baf_672f_4e18_8c55_d507ed51a637.jpg
+  link: https://www.secretescapes.de/traumresort-an-portugals-atlantikkueste-sheraton-cascais-resort-cascais-bei-lissabon-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
 
-- title: "Here goes title"
-  id: stpete-clearwater
-  location: Here goes location
-  description: Here goes description
-  price: 118
+- title: Lissabon für urbane Romantiker
+  id: charmantes-parkhotel-an-sardiniens-smaragdküste
+  location: Hotel Lis Baixa, Lissabon, Portugal
+  description: Besuch in der Stadt des Lichts inkl. Frühstück, Begrüßungsgetränk &amp; Extras
+  price: 131
   price-description: pro Zimmer pro Nacht
-  saved: 36
-  image: img.jpg
-  link: #
+  saved: 51
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39618/b581e1ed_aa41_4ef9_ac36_6ed52529c5af.jpg
+  link: https://www.secretescapes.de/lissabon-fuer-urbane-romantiker-hotel-lis-baixa-lissabon-portugal1/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: Mondänes Küstenleben an der Algarve
+  id: moderne-bungalows-an-der-italienischen-adria
+  location: Vilamoura Garden Hotel, Vilamoura, Algarve, Portugal
+  description: Portugals Algarve erleben – inkl. Frühstück &amp; 1 Flasche Wein
+  price: 69
+  price-description: pro Zimmer pro Nacht
+  saved: 45
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/60892/b24cf438_489b_48c7_9208_de16419a8142.jpg
+  link: https://www.secretescapes.de/mondaenes-kuestenleben-an-der-algarve-vilamoura-garden-hotel-vilamoura-algarve-portugal-1/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: "Madeira: Atlantik-Auszeit im Panorama-Paradies"
+  id: aktiv-in-südtirols-bergen
+  location: Quinta do Monte, Funchal, Madeira, Portugal
+  description: Inkl. Flügen, Transfers, Halbpension, Begrüßungsgetränk &amp; Getränke-Ermäßigung
+  price: 499
+  price-description: pro Person für 7 Nächte
+  saved: 26
+  flight-tag: true
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85665/7d05d288_ede1_445c_88bd_77747c986e2f.jpg
+  link: https://www.secretescapes.de/madeira-atlantik-auszeit-im-panorama-paradies-quinta-do-monte-funchal-madeira-portugal-de/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: Strand-Auszeit mit Stil an der malerischen Algarve
+  id: brandneues-boutiquehotel-in-kampanien
+  location: Hotel Califórnia Urban Beach, Albufeira, Algarve, Portugal
+  description: Renoviertes Adults-only-Hotel mit Pool &amp; Spa-Bereich – inkl. Flügen, Transfers &amp; Extras
+  price: 455
+  price-description: pro Person für 7 Nächte
+  saved: 27
+  flight-tag: true
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90084/14e45bef_315d_4565_81cd_fd7463142c83.jpg
+  link: https://www.secretescapes.de/algarve-auszeit-mit-stil-im-malerischen-albufeira-hotel-california-urban-beach-albufeira-algarve-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: "Neueröffnung: Urbanes Designjuwel in Lissabon"
+  id: alpiner-wellness-lifestyle-in-den-dolomiten
+  location: My Story Charming Hotel Augusta, Lissabon, Portugal
+  description: Zentrale Neueröffnung – inkl. Frühstück, spätem Check-out &amp; Willkommenspräsent
+  price: 112
+  price-description: pro Zimmer pro Nacht
+  saved: 40
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86117/b21d6c25_e266_4082_a475_44ba6175ac57.jpg
+  link: https://www.secretescapes.de/neueroffnung-urbanes-designjuwel-in-lissabon-my-story-charming-hotel-augusta-lissabon-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: Aktiv-Spa-Resort an der Algarve
+  id: paradiesische-pause-in-kalabrien
+  location: Longevity Cegonha Country Club, Quarteira, Algarve, Distrikt Faro, Portugal
+  description: Suite mit Frühstück, Spa-Zugang &amp; Extras
+  price: 88
+  price-description: pro Suite pro Nacht
+  saved: 57
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64609/33511d55_4d72_4b5c_a888_afdc0ea3aeba.jpg
+  link: https://www.secretescapes.de/aktiv-spa-resort-an-der-algarve-longevity-cegonha-country-club-quarteira-algarve-distrikt-faro-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019
+
+- title: Madeira in hochherrschaftlichem Ambiente
+  id: edles-palazzo-hotel-in-rom
+  location: Hotel Quinta Bela São Tiago, Funchal, Madeira, Portugal
+  description: Gartenoase mit tollem Meerblick in Funchal – inkl. Frühstück oder Halbpension &amp; 1 Glas Wein
+  price: 85
+  price-description: pro Zimmer pro Nacht
+  saved: 33
+  flight-tag: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/89949/71abfaeb_3dab_490c_8ed2_8616ebad8a43.jpg
+  link: https://www.secretescapes.de/madeira-in-hochherrschaftlichem-ambiente-hotel-quinta-bela-sao-tiago-funchal-madeira-portugal/sale?utm_source=SE&utm_medium=hub&utm_campaign=portugal_DE_2019

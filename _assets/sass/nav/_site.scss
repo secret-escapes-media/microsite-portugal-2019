@@ -1,8 +1,8 @@
 // styles for the microsite nav
 
-$site-nav-height:    60px;
-$site-nav-height-sm: 44px;
-$nav-width-bp:       860px;
+$site-nav-height:    70px;
+$site-nav-height-sm: 60px;
+$nav-width-bp:       1150px;
 $nav-color:          $bv-red;
 
 
@@ -40,7 +40,7 @@ $nav-color:          $bv-red;
     bottom: 0;
     z-index: $z-nav-upper;
     width: $site-nav-height-sm;
-    background-image: url("../img/icons/nav-arrow-footer.svg");
+    background-image: url("../img/icons/nav-arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: $site-nav-height-sm auto;
@@ -70,7 +70,7 @@ $nav-color:          $bv-red;
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
       min-width: $site-nav-height-sm;
-      @include bp($md){ min-width: $site-nav-height; }
+      @include bp($md){ min-width: $site-nav-height/3; }
       @include bp($nav-width-bp){ display: none; }
     }
   }
