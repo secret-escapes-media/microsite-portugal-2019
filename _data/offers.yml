@@ -1,87 +1,153 @@
-- title: "Insel-Duo: Madeira & Porto Santo"
-  id: entschleunigung-in-südtirol
-  location: Madeira & Porto Santo, Portugal
-  description: Exklusive Vielfalt im Atlantik inkl. Flügen, Halbpension, optionalen Ausflügen &amp; Extras
-  price: 999
-  price-description: pro Person für 14 Nächte
-  saved: 20
-  flight-tag: true
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90163/a9ed3c99_ed02_4d11_bcbe_0a1f737e5f2c.jpg
-  link: https://www.secretescapes.de/insel-duo-madeira-and-porto-santo-funchal-and-porto-santo-madeira-portugal/sale
-
-- title: "Mitten in Porto: Design-Apartments zum Wohlfühlen"
-  id: wein-and-design-in-südtirol
-  location: My Story Apartments Santa Catarina, Porto, Portugal
-  description: Neueröffnung in historischer Kulisse – inkl. 1 Flasche Wein, spätem Check-out &amp; WLAN
-  price: 78
-  price-description: pro Apartment pro Nacht
-  saved: 38
-  flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90339/c414f663_76f7_4929_a6af_0c6dceb862ff.jpg
-  link: https://www.secretescapes.de/apartments-im-gemuetlichen-herzen-von-porto-my-story-apartments-santa-catarina-porto-portugal/sale
-
-- title: Mondänes Küstenleben an der Algarve
-  id: moderne-bungalows-an-der-italienischen-adria
-  location: Vilamoura Garden Hotel, Vilamoura, Algarve, Portugal
-  description: Portugals Algarve erleben – inkl. Frühstück &amp; 1 Flasche Wein
-  price: 69
-  price-description: pro Zimmer pro Nacht
-  saved: 45
-  flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/60892/b24cf438_489b_48c7_9208_de16419a8142.jpg
-  link: https://www.secretescapes.de/mondaenes-kuestenleben-an-der-algarve-vilamoura-garden-hotel-vilamoura-algarve-portugal-1/sale
-
-- title: Lifestyle-Luxus & Lissaboner Lebenslust
-  id: myriad
-  location: MYRIAD by SANA HOTELS, Lissabon, Portugal
-  description: Design-Hotel direkt am Tejo – inkl. Flügen, Frühstück, Spa-Zugang & Extras
-  price: 559
-  price-description: pro Zimmer pro Nacht
-  saved: 30
-  flight-tag: true
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90551/311a7979_7352_4182_a261_10cc83e5fb85.jpg
-  link: https://www.secretescapes.de/pazifikgefuehle-auf-sao-miguel-vila-nova-hotel-ponta-delgada-azoren-portugal/sale
-
-- title: Atlantikgefühle auf São Miguel
-  id: Vila-Nova
-  location: Vila Nova Hotel, Ponta Delgada, Azoren, Portugal
-  description:  Junior-Suite auf Portugals Grüner Insel – inkl. Frühstück, Begrüßungsgetränk & Extras
-  price: 39
-  price-description: pro Zimmer pro Nacht
-  saved: 36
-  flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90917/7cd3ac63_ad4d_427c_9d85_3e497445a817.jpg
-  link: https://www.secretescapes.de/pazifikgefuehle-auf-sao-miguel-vila-nova-hotel-ponta-delgada-azoren-portugal/sale
-
-- title: Strand-Auszeit mit Stil an der malerischen Algarve
-  id: brandneues-boutiquehotel-in-kampanien
-  location: Hotel Califórnia Urban Beach, Albufeira, Algarve, Portugal
-  description: Renoviertes Adults-only-Hotel mit Pool &amp; Spa-Bereich – inkl. Flügen, Transfers &amp; Extras
-  price: 455
-  price-description: pro Person für 7 Nächte
-  saved: 27
-  flight-tag: true
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90084/14e45bef_315d_4565_81cd_fd7463142c83.jpg
-  link: https://www.secretescapes.de/algarve-auszeit-mit-stil-im-malerischen-albufeira-hotel-california-urban-beach-albufeira-algarve-portugal/sale
-
-- title: "Madeira: Atlantik-Auszeit im Panorama-Paradies"
-  id: aktiv-in-südtirols-bergen
-  location: Quinta do Monte, Funchal, Madeira, Portugal
-  description: Inkl. Flügen, Transfers, Halbpension, Begrüßungsgetränk &amp; Getränke-Ermäßigung
-  price: 499
-  price-description: pro Person für 7 Nächte
+- title: Atlantikluft schnuppern nahe Lissabon
+  id: atlantikluft-schnuppern-nahe-lissabon
+  location: Sheraton Cascais Resort, Cascais bei Lissabon, Portugal
+  description: Deluxe-Suite zwischen Golfplatz &amp; Ozean – inkl. Flügen, Privattransfers, Frühstück &amp; Extras
+  price: 479
+  price-description: pro Person für 5 Nächte
   saved: 26
-  flight-tag: true
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85665/7d05d288_ede1_445c_88bd_77747c986e2f.jpg
-  link: https://www.secretescapes.de/madeira-atlantik-auszeit-im-panorama-paradies-quinta-do-monte-funchal-madeira-portugal-de/sale
+  flight-tag: TRUE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/92058/d9f49ca4_d0dc_4835_928a_79c17c10b45a.jpg
+  link: https://www.secretescapes.de/atlantikluft-schnuppern-nahe-lissabon-sheraton-cascais-resort-cascais-bei-lissabon-portugal/sale
 
-- title: Inselabenteuer auf Madeira im 5*-Resort
-  id: Hotel-Quinta
-  location: Hotel Quinta do Lorde, Madeira, Portugal
-  description: Inkl. Frühstück oder Halbpension, spätem Check-out & Begrüßungsgetränk
-  price: 46
-  price-description: pro Suite pro Nacht
+- title: Vor den Toren Lissabons das Panorama überblicken
+  id: vor-den-toren-lissabons-das-panorama-überblicken
+  location: Myriad by SANA Hotels, Lissabon, Portugal
+  description: Designhotel mit Weitblick über das Wasser – inkl. Frühstück, Begrüßungsgetränk &amp; Vergünstigungen
+  price: 210
+  price-description: pro Zimmer pro Nacht
+  saved: 23
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91802/f94a7d0e_6c51_4121_b617_1c2089140f86.jpg
+  link: https://www.secretescapes.de/vor-den-toren-lissabons-das-panorama-ueberblicken-myriad-by-sana-hotels-lissabon-portugal1/sale
+
+- title: Magische Auszeit auf Madeira
+  id: magische-auszeit-auf-madeira
+  location: Quinta da Bela Vista, Funchal, Madeira, Portugal
+  description: Inkl. Frühstück oder Halbpension, Nutzung von Sauna, Whirlpool &amp; Tennisplatz &amp; Extras
+  price: 131
+  price-description: pro Zimmer pro Nacht
   saved: 30
-  flight-tag: #
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86291/cc151c6b_3d52_4d8b_a019_fd17c972d022.jpg
-  link: https://www.secretescapes.de/inselabenteuer-auf-madeira-im-5-star-resort-hotel-quinta-do-lorde-madeira-portugal/sale
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/83809/4cc375a4_fbab_4b17_99b3_5b7f03622325.jpg
+  link: https://www.secretescapes.de/magische-auszeit-auf-madeira-quinta-da-bela-vista-funchal-madeira-portugal/sale
+
+- title: Spa und Meeresluft im Süden Portugals
+  id: spa-und-meeresluft-im-süden-portugals
+  location: Longevity Health & Wellness Hotel, Alvor, Algarve, Portugal
+  description: Neue Wohlfühloase im tiefen Süden – inkl. Frühstück &amp; vielen Wellnessangeboten
+  price: 135
+  price-description: pro Zimmer pro Nacht
+  saved: 56
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/92158/41c20005_7b8b_4878_99c6_20b98e4b5e54.jpg
+  link: https://www.secretescapes.de/spa-und-meeresluft-im-sueden-portugals-longevity-health-and-wellness-hotel-alvor-algarve-portugal/sale
+
+- title: Golf & Wellness an der Bucht von Cascais
+  id: golf-and-wellness-an-der-bucht-von-cascais
+  location: Hotel Quinta da Marinha Resort, Cascais, Portugal
+  description: Inkl. Frühstück, Wellness-Gutschein &amp; Begrüßungsgeschenk
+  price: 124
+  price-description: pro Zimmer pro Nacht
+  saved: 31
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/33772/4563d85e_edaa_4b93_b7db_6def910133c9.jpg
+  link: https://www.secretescapes.de/golf-und-wellness-an-der-bucht-von-cascais-hotel-quinta-da-marinha-resort-cascais-portugal/sale
+
+- title: Lissabon für urbane Entdecker
+  id: lissabon-für-urbane-entdecker
+  location: Hotel Santa Justa, Lissabon, Portugal
+  description: Das Lebensgefühl Lissabons – inkl. Frühstück, kostenloser Minibar, spätem Check-out &amp; Extras
+  price: 161
+  price-description: pro Zimmer pro Nacht
+  saved: 42
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/72576/e8a59c85_5a45_472f_a77e_0989e86d7ee9.jpg
+  link: https://www.secretescapes.de/lissabon-fuer-urbane-entdecker-hotel-santa-justa-lissabon-portugal-de/sale
+
+- title: Strandglück am Praia de Mera an der Algarve
+  id: strandglück-am-praia-de-mera-an-der-algarve
+  location: Iberostar Lagos Algarve, Portugal
+  description: 5* All-inclusive – inkl. 1x Spa-Zugang, Spa-Ermäßigung &amp; Begrüßungsgeschenk
+  price: 199
+  price-description: pro Zimmer pro Nacht
+  saved: 20
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91468/36c7c59c_9828_4fe0_8ed1_a41d17151db6.jpg
+  link: https://www.secretescapes.de/strandglueck-am-praia-de-mera-an-der-algarve-iberostar-lagos-algarve-portugal/sale
+
+- title: Portugals Küstenliebling Sesimbra
+  id: portugals-küstenliebling-sesimbra
+  location: SANA Sesimbra Hotel, Sesimbra, Lissabon, Portugal
+  description: Strandleben &amp; authentisches Küstenflair in Sesimbra – inkl. Frühstück &amp; Extras
+  price: 88
+  price-description: pro Zimmer pro Nacht
+  saved: 22
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/70541/3524c80c_2d70_40fa_9b18_e4990894aaa1.jpg
+  link: https://www.secretescapes.de/portugals-kuestenliebling-sesimbra-sana-sesimbra-hotel-sesimbra-lissabon-portugal/sale
+
+- title: Spa-Resort in Naturidylle
+  id: spa-resort-in-naturidylle
+  location: Quinta Splendida Wellness & Botanical Garden, Caniço, Madeira, Portugal
+  description: Inkl. Halbpension, Obstkorb und Wasser &amp; täglichem Spa-Zugang
+  price: 200
+  price-description: pro Unterkunft pro Nacht
+  saved: 33
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91654/e0ed3e7f_dfe2_4ca9_93b5_b9aa69168439.jpg
+  link: https://www.secretescapes.de/spa-resort-in-naturidylle-quinta-splendida-wellness-and-botanical-garden-canico-madeira-portugal3/sale
+
+- title: Am Puls Portos mit Blick über die ganze Stadt
+  id: am-puls-portos-mit-blick-über-die-ganze-stadt
+  location: Porto Premium Downtown, Porto, Portugal
+  description: Klassischer Chic bei den Weltkulturerbestätten – inkl. Frühstück, Begrüßungsgetränk &amp; Gastro-Ermäßigung
+  price: 72
+  price-description: pro Zimmer pro Nacht
+  saved: 35
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/40026/e8309ba4_831f_41a9_9dda_209db32e0c76.jpg
+  link: https://www.secretescapes.de/am-puls-portos-mit-blick-ueber-die-ganze-stadt-porto-premium-downtown-porto-portugal/sale
+
+- title: Stilvolle Ruheoase unweit von Lissabon
+  id: stilvolle-ruheoase-unweit-von-lissabon
+  location: Dolce CampoReal Lisboa, Turcifal, Torres Vedras, Lissabon, Portugal
+  description: Superior-Deluxe-Zimmer im vielseitigen Luxus-Resort – inkl. Frühstück &amp; Spa-Zugang
+  price: 106
+  price-description: pro Zimmer pro Nacht
+  saved: 53
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/18786/bd147e4d_c332_406f_94e0_9717ff3b13a3.jpg
+  link: https://www.secretescapes.de/stilvolle-ruheoase-unweit-von-lissabon-dolce-camporeal-lisboa-turcifal-torres-vedras-lissabon-portugal/sale
+
+- title: Portugiesischer Pinienduft, Designflair & Meerblick
+  id: portugiesischer-pinienduft-designflair-and-meerblick
+  location: Praia Verde Boutique Hotel, Castro Marim, Portugal
+  description: Atlantikblick und mediterraner Genuss – inkl. Frühstück &amp; Begrüßungspräsent
+  price: 105
+  price-description: pro Unterkunft pro Nacht
+  saved: 29
+  flight-tag: FALSE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/90418/e8ef7e0d_738a_44bd_beda_49bf48b5d48d.jpg
+  link: https://www.secretescapes.de/portugiesischer-pinienduft-designflair-and-meerblick-praia-verde-boutique-hotel-castro-marim-portugal/sale
+
+- title: Algarve-Entdeckungen von Albufeira aus
+  id: algarve-entdeckungen-von-albufeira-aus
+  location: Velamar Boutique Hotel, Albufeira, Algarve, Portugal
+  description: Portugals Paradeküste – inkl. Flügen, Frühstück, Mietwagen &amp; Begrüßungsgetränk
+  price: 349
+  price-description: pro Person für 7 Nächte
+  saved: 38
+  flight-tag: TRUE
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/91733/363be6f0_ac4f_4b8f_8601_235d5658bc22.jpg
+  link: https://www.secretescapes.de/algarve-entdeckungen-von-albufeira-aus-velamar-boutique-hotel-albufeira-algarve-portugal1/sale
+
+- title: Urlaubsglück an der Algarve
+  id: Longevity
+  location: Longevity Cegonha Country Club, Vilamoura, Algarve, Portugal
+  description: Inkl. Flügen, Frühstück, Mietwagen, Wellness-Zugang & Extras
+  price: 499
+  price-description: pro Person - basierend auf 2 Personen für 7 Nächte
+  saved: 36
+  flight-tag: true
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81068/d24e63b4_9a8d_4834_9731_637944d09b07.jpg
+  link: https://www.secretescapes.de/urlaubsglueck-an-der-algarve-longevity-cegonha-country-club-vilamoura-algarve-portugal/sale
